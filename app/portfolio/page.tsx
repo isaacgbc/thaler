@@ -15,7 +15,7 @@ import { Footer } from "@/components/Footer";
 type Filter = "all" | PortfolioCategory;
 
 const FILTERS: Array<{ id: Filter; label: string; hint: string }> = [
-  { id: "all", label: "All", hint: "10 companies" },
+  { id: "all", label: "All", hint: "11 companies" },
   { id: "legacy", label: "Legacy", hint: "2013 – 2019" },
   { id: "recent", label: "Recent", hint: "2025 – 2026" },
 ];
@@ -98,13 +98,13 @@ export default function PortfolioPage() {
           </h1>
           <p className="text-[17px] text-text-body leading-[1.7] max-w-[60ch] mb-4">
             To show you what it can do, we ran it on something you know well:
-            Kaszek&rsquo;s last ten investments.
+            Kaszek&rsquo;s last eleven investments.
           </p>
           <p className="text-[15px] text-text-secondary leading-[1.6] max-w-[60ch]">
             Each company re-evaluated against current macro conditions,
             competitive landscape, AI disruption risk, and founder-problem fit.
             For the five legacy bets we score them as they looked at investment,
-            then show what actually happened. For the five recent ones, the
+            then show what actually happened. For the six recent ones, the
             outcome is still unwritten.
           </p>
           <p className="text-[11px] text-text-muted font-sans mt-5 tracking-[0.05em]">
@@ -159,12 +159,12 @@ export default function PortfolioPage() {
                 onClick={() => setShowAllRadar((v) => !v)}
                 className="text-[11px] font-sans font-medium text-cyan hover:underline tracking-[0.04em]"
               >
-                {showAllRadar ? "Show top 3 + bottom 3" : "Show all 10"}
+                {showAllRadar ? "Show top 3 + bottom 3" : "Show all 11"}
               </button>
             </div>
             <h2 className="font-display text-[22px] text-text-primary leading-tight mb-1">
               {showAllRadar
-                ? "All ten companies, one chart"
+                ? "All eleven companies, one chart"
                 : "Top 3 and bottom 3 by stage multiplier"}
             </h2>
             <p className="text-[12px] text-text-muted font-sans leading-[1.5] mb-4">

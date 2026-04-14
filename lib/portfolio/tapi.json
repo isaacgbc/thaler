@@ -1,0 +1,46 @@
+{
+  "company": "Tapi",
+  "category": "recent",
+  "year_invested": 2026,
+  "round": "Series B ($27M — Kaszek + Endeavor Catalyst + Latitud, Feb 2026). $60M total raised since 2022.",
+  "stage_at_investment": "Series B",
+  "stage_base_rate": 55,
+  "description": "Argentine payments-orchestration network operating across Argentina, Chile, Peru, Colombia, and Mexico. Processes $6B+ in volume through 250M+ annual transactions (~25M monthly). Serves fintechs, banks, retailers, insurance, and billers with recurring-payment, utility-payment, mobile top-up, and gift-card rails. Reached profitability in 2025. Co-founded 2022 by Tomás Mindlin (CEO), Kevin Litvin (CBO), and Nicolás Andriano (CTO, ex-Flybondi Head of Revenue Management).",
+  "current_status": "Deploying Series B into two bets. First, scaling the Arcus acquisition (June 2025, from Mastercard) — cash and utility-payment capabilities adding ~20,000 service companies and ~70,000 physical points of presence in Mexico. Second, scaling tapipay, a new collection-automation platform targeting LATAM SMEs, insurance firms, schools, and regional financial institutions. Stated goal: triple current volume from 25M monthly payments. 2026 focus on three business units — Financial Institutions, Billers, and Physical Chains + tapipay.",
+  "scores": {
+    "macro": 70,
+    "demand": 82,
+    "moat": 75,
+    "sales": 78,
+    "behavioral": 62,
+    "ai_disruption": 70,
+    "founder": 85,
+    "simulation": 80
+  },
+  "founder": {
+    "name": "Tomás Mindlin (CEO) + Kevin Litvin (CBO) + Nicolás Andriano (CTO)",
+    "background": "Nicolás Andriano was Head of Revenue Management at Flybondi (2017–2020) — unusually relevant for payments orchestration because revenue management at a low-cost carrier is structurally the same problem as transaction orchestration: many billers, many channels, many currencies, many rules. Mindlin and Litvin complete a balanced commercial + technical founding team. Four-year-old company, three co-founders still in seat.",
+    "problem_fit": "HIGH. Andriano experienced the pain of LATAM payments fragmentation first-hand running revenue systems at Flybondi, where every local payment method, recurring-billing rule, and FX conversion is a real P&L input, not a theoretical one. This is a specific-background problem, not a 'saw market opportunity' problem.",
+    "execution_evidence": "Shipped across 5 countries in ~4 years. Reached profitability in 2025 — rare at Series B. Closed M&A with Mastercard (Arcus acquisition, June 2025) — executing cross-border M&A against a $400B counterparty is non-trivial discipline for a Series A-stage startup.",
+    "red_flags": "Founding team has not operated through a full LATAM macro shock at scale — the 2022–2026 window benefited from Argentine reform tailwinds and Mexico stability. Tapipay is a new GTM motion (SME-focused) where the team does not yet have revealed execution evidence."
+  },
+  "survival_pct": 80,
+  "outcome_distribution": {
+    "dead": 8,
+    "zombie": 12,
+    "surviving": 25,
+    "thriving": 35,
+    "breakout": 20
+  },
+  "most_likely_outcome": "thriving",
+  "stage_context": {
+    "stage": "Series B",
+    "base_distribution": { "dead": 20, "zombie": 25, "surviving": 25, "thriving": 20, "breakout": 10 },
+    "vs_base": "Tapi's already-profitable status (Bloomberg, June 2025) and capital efficiency ($6B volume on $60M total raised) justify thriving +15pp. Breakout +10pp is unlocked IF tapipay captures LATAM SME recurring-collections before Clip / Kueski Pay / Konfio extend into the category. Dead cut from 20 to 8 because reached profitability removes the cash-burn failure mode. Zombie cut from 25 to 12 because a profitable B2B infra company with 5-country presence rarely ends in zombie state — it gets acquired instead."
+  },
+  "verdict": "Tapi survives in the thriving tier IF (a) tapipay reaches meaningful Mexico SME adoption within 18 months of launch, (b) the Arcus integration does not produce a customer-churn event at the acquired 20K-merchant base, (c) Pomelo / Prometeo / Belvo do not extend into recurring-billing orchestration before tapi entrenches that wedge. Most fragile: (a) — SME recurring-collection is a new motion for the team, with higher CAC than enterprise billers and direct competition from Mexican players like Clip (payments) and Konfio (SME credit) already holding SME distribution.",
+  "top_risk": "Tapipay is a net-new GTM motion. Tapi's revealed execution evidence is in enterprise billers and financial institutions; selling collection-automation to LATAM SMEs is a different CAC curve, shorter contracts, higher churn, and a crowded competitive landscape (Clip, Kueski, Konfio, and local banks' own SME offerings).",
+  "top_opportunity": "The Arcus acquisition from Mastercard is a once-in-a-decade compounding asset: 20,000 service-company integrations plus 70,000 physical cash-collection points would cost $100M+ and 5 years to replicate organically. Combined with tapipay, it positions Tapi as the default recurring-collections rail for LATAM — a category where no regional leader currently exists.",
+  "actual_outcome": null,
+  "actual_outcome_tier": null
+}

@@ -14,6 +14,13 @@ export const DEMO_PRESETS: DemoPreset[] = [
       "Azos: insurtech de seguros de vida individual en Brasil. Modelo MGA (sin licencia propia, partner con aseguradora Excelsior que asume el riesgo). 100K pólizas activas. R$307M en primas anualizadas. 1% de market share en un mercado de R$25B dominado por Bradesco y Prudential (64% combinado). 11,000 corredores partners. $21B en capital asegurado. 97 empleados. Acaba de levantar $25M Series C de Kaszek para expandir AI en underwriting y claims. Quieren ser el Nubank de los seguros de vida.",
   },
   {
+    id: "tapi",
+    label: "Tapi — Payments LATAM",
+    subtitle: "Series B · $6B volumen · 250M tx/año",
+    input:
+      "Tapi: red de orquestación de pagos argentina operando en Argentina, Chile, Perú, Colombia y México. Procesa $6B+ en volumen con 250M+ transacciones anuales (~25M mensuales). Series B de $27M liderada por Kaszek (feb 2026), $60M total levantado desde 2022. Clientes: fintechs, bancos, retailers, aseguradoras y billers para pagos recurrentes, servicios, recargas y gift cards. Llegó a rentabilidad en 2025. En junio 2025 adquirió las operaciones de Arcus de Mastercard en México — agrega ~20,000 empresas de servicios y ~70,000 puntos físicos de cobranza. Lanzando tapipay: plataforma de automatización de cobranza para PyMEs, aseguradoras, escuelas e instituciones financieras regionales. Fundadores: Tomás Mindlin (CEO), Kevin Litvin (CBO), Nicolás Andriano (CTO, ex-Head of Revenue Management en Flybondi).",
+  },
+  {
     id: "lavanderia",
     label: "Lavandería Industrial BA",
     subtitle: "B2B hoteles · $40K/mes · 8 años",

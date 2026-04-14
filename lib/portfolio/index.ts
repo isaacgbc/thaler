@@ -8,6 +8,7 @@ import humand from "./humand.json";
 import pomelo from "./pomelo.json";
 import arvo from "./arvo.json";
 import niva from "./niva.json";
+import tapi from "./tapi.json";
 
 export type PortfolioCategory = "legacy" | "recent";
 
@@ -91,6 +92,7 @@ export const PORTFOLIO: PortfolioCompany[] = [
   pomelo,
   arvo,
   niva,
+  tapi,
 ] as PortfolioCompany[];
 
 export const SCORE_LABELS: Array<{ key: keyof PortfolioScores; label: string }> = [

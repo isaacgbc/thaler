@@ -47,7 +47,7 @@ export function InputForm({ onSubmit, disabled }: Props) {
             <p className="text-[14px] text-text-muted font-sans mb-3">
               Or try one of these:
             </p>
-            <div className="grid md:grid-cols-3 gap-3">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
               {DEMO_PRESETS.map((preset) => (
                 <button
                   key={preset.id}
