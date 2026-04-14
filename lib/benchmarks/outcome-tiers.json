@@ -1,0 +1,76 @@
+{
+  "framework": "Thaler Outcome Tiers",
+  "note": "Inspired by venture return distributions (Horsley Bridge data, Correlation Ventures) and startup lifecycle research (Startup Genome Project)",
+  "tiers": {
+    "dead": {
+      "label": "Dead",
+      "description": "Ran out of cash, shut down, or acqui-hired at <1x invested capital",
+      "color": "var(--danger)",
+      "icon": "×"
+    },
+    "zombie": {
+      "label": "Zombie",
+      "description": "Alive but flat. Revenue covers costs, no growth, cannot raise, founders trapped. The walking dead of startups.",
+      "color": "var(--warning)",
+      "icon": "◍"
+    },
+    "surviving": {
+      "label": "Surviving",
+      "description": "Growing but below venture pace. 5-15% MoM revenue growth. Can raise a next round but not at a markup that excites existing investors.",
+      "color": "var(--text-secondary)",
+      "icon": "△"
+    },
+    "thriving": {
+      "label": "Thriving",
+      "description": "20%+ MoM revenue growth, clear path to next round at 2x+ markup, unit economics improving quarter over quarter. On the venture trajectory.",
+      "color": "var(--cyan)",
+      "icon": "▲"
+    },
+    "breakout": {
+      "label": "Breakout",
+      "description": "Category-defining trajectory. 30%+ MoM growth sustained, or market leadership in a large TAM, or fundamentally new market creation. The 1% that returns the fund.",
+      "color": "var(--positive)",
+      "icon": "★"
+    }
+  },
+  "stage_expectations": {
+    "pre_seed": {
+      "horizon_months": 18,
+      "success_means": "Reach seed round or ramen profitability. Product-market fit signal: 100+ paying users or LOIs from 3+ enterprise customers.",
+      "typical_distribution": { "dead": 60, "zombie": 22, "surviving": 10, "thriving": 6, "breakout": 2 }
+    },
+    "seed": {
+      "horizon_months": 18,
+      "success_means": "Reach Series A metrics: $50K+ MRR, <5% monthly churn, repeatable acquisition channel, 3x LTV/CAC.",
+      "typical_distribution": { "dead": 45, "zombie": 25, "surviving": 15, "thriving": 10, "breakout": 5 }
+    },
+    "series_a": {
+      "horizon_months": 24,
+      "success_means": "Reach Series B metrics: $200K+ MRR, clear market leadership in segment, gross margins stabilizing above 60%, org scaling from 20 to 80+.",
+      "typical_distribution": { "dead": 30, "zombie": 25, "surviving": 20, "thriving": 15, "breakout": 10 }
+    },
+    "series_b": {
+      "horizon_months": 24,
+      "success_means": "Path to profitability visible. $1M+ MRR, international expansion working, or market consolidation via M&A. Could IPO in 3-5 years.",
+      "typical_distribution": { "dead": 20, "zombie": 25, "surviving": 25, "thriving": 20, "breakout": 10 }
+    },
+    "series_c": {
+      "horizon_months": 24,
+      "success_means": "Cash-flow positive or clear line to it. Market leader in segment. Strategic acquirer interest or IPO preparation.",
+      "typical_distribution": { "dead": 15, "zombie": 20, "surviving": 25, "thriving": 25, "breakout": 15 }
+    }
+  },
+  "stage_base_rates": {
+    "Pre-seed": 8,
+    "Seed": 15,
+    "Series A": 40,
+    "Series B": 55,
+    "Series C": 68
+  },
+  "sources": [
+    "Horsley Bridge venture return data (2000-2020)",
+    "Correlation Ventures (2004-2013 fund analysis)",
+    "Startup Genome Project lifecycle research",
+    "CB Insights startup failure post-mortems (N=4,000+)"
+  ]
+}

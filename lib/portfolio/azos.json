@@ -1,0 +1,46 @@
+{
+  "company": "Azos",
+  "category": "recent",
+  "year_invested": 2026,
+  "round": "Series C ($25M — Kaszek-led, March 2026)",
+  "stage_at_investment": "Series C",
+  "stage_base_rate": 68,
+  "description": "Brazilian insurtech MGA selling individual life insurance through 11,000 broker partners, backed by risk-carrier Excelsior. 100K policies active, R$307M in annualized premiums, 1% share of a R$25B market dominated by Bradesco and Prudential (64% combined).",
+  "current_status": "Post-Series C deploying capital into AI underwriting and claims. Targeting 'the Nubank of life insurance' positioning. No reserve capital requirements (MGA model), 97 employees, 11K brokers active.",
+  "scores": {
+    "macro": 55,
+    "demand": 80,
+    "moat": 35,
+    "sales": 65,
+    "behavioral": 80,
+    "ai_disruption": 50,
+    "founder": 68,
+    "simulation": 70
+  },
+  "founder": {
+    "name": "Rafael Cló",
+    "background": "Stanford MBA. Personal pain trigger: couldn't reinstate his own life-insurance policy after a credit-card expiry — became the founding insight.",
+    "problem_fit": "HIGH on the UX and GTM layer (the friction he personally experienced). LOW on the hard layers: life-insurance underwriting, SUSEP regulatory navigation, actuarial pricing — all delegated to partner Excelsior.",
+    "execution_evidence": "Built Azos to 100K policies and R$307M annualized premiums via broker network; closed Series C. Has not yet demonstrated operating the regulated layer himself.",
+    "red_flags": "First-time founder in a heavily regulated industry (insurance) without a regulatory co-founder. MGA dependency is the structural consequence of this founder profile."
+  },
+  "survival_pct": 68,
+  "outcome_distribution": {
+    "dead": 15,
+    "zombie": 17,
+    "surviving": 22,
+    "thriving": 31,
+    "breakout": 15
+  },
+  "most_likely_outcome": "thriving",
+  "stage_context": {
+    "stage": "Series C",
+    "base_distribution": { "dead": 15, "zombie": 20, "surviving": 25, "thriving": 25, "breakout": 15 },
+    "vs_base": "Azos outperforms Series C base rate in thriving (+6pp) driven by TAM expansion (insurance penetration 2.4% of GDP in Brazil vs 7%+ Chile) and AI underwriting edge. Breakout (±0pp) — capped by MGA dependency: the largest outcomes require balance-sheet ownership, which Azos does not have."
+  },
+  "verdict": "Azos survives 18 months IF (a) churn stays below 7%/month on policies (life insurance benchmark is 1-2%), (b) Selic cuts reach 200bp+ by Q4 2026 enabling middle-class insurance uptake, (c) Excelsior does not renegotiate MGA economics as Azos scales. Most fragile: (c) — Azos has zero publicly-documented contractual leverage over its risk carrier.",
+  "top_risk": "MGA dependency: if Excelsior demands a larger risk share or exits, Azos has no life-insurance license and no alternative carrier lined up publicly",
+  "top_opportunity": "Loss-frame GTM via Cialdini-style local testimonials — Brazilian middle class responds 3-5x stronger to peer social proof than Bradesco's institutional branding",
+  "actual_outcome": null,
+  "actual_outcome_tier": null
+}

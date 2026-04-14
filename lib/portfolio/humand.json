@@ -1,0 +1,46 @@
+{
+  "company": "Humand",
+  "category": "recent",
+  "year_invested": 2026,
+  "round": "Series A ($66M — Kaszek + Goodwater, Feb 2026)",
+  "stage_at_investment": "Series A",
+  "stage_base_rate": 40,
+  "description": "Argentine HR/workforce platform for deskless workers — logistics, manufacturing, retail, healthcare — who lack corporate email and desktop access. 20-module suite (chat, attendance, OKRs, leave, internal comms) reaching 1.6M users across 1,500 companies in 51 countries.",
+  "current_status": "Post-Series A deploying into Brazil expansion, US entry, and AI agents for employee onboarding. Growing into a TAM of 2.7B deskless workers globally. Backed by Kaszek, Goodwater, Newtopia, YC, Arash Ferdowsi, Marcos Galperin.",
+  "scores": {
+    "macro": 50,
+    "demand": 80,
+    "moat": 50,
+    "sales": 70,
+    "behavioral": 65,
+    "ai_disruption": 55,
+    "founder": 72,
+    "simulation": 65
+  },
+  "founder": {
+    "name": "Geronimo Maspero + team",
+    "background": "Technical co-founder with enterprise software background. Built Humand from inside the deskless-workforce HR pain — logistics / retail / manufacturing ops that existing Slack-style tools don't serve.",
+    "problem_fit": "HIGH on the technical layer and workforce-UX insight. MEDIUM on US SaaS distribution — LATAM-first playbook doesn't automatically translate to US HR buyers.",
+    "execution_evidence": "1.6M users / 1,500 companies / 51 countries in ~5 years — strong shipping cadence. 20 modules built out before the Series A.",
+    "red_flags": "None material. The test ahead is US GTM execution, which is a new terrain for this founding team."
+  },
+  "survival_pct": 72,
+  "outcome_distribution": {
+    "dead": 18,
+    "zombie": 20,
+    "surviving": 22,
+    "thriving": 28,
+    "breakout": 12
+  },
+  "most_likely_outcome": "thriving",
+  "stage_context": {
+    "stage": "Series A",
+    "base_distribution": { "dead": 30, "zombie": 25, "surviving": 20, "thriving": 15, "breakout": 10 },
+    "vs_base": "Humand skews thriving (+13pp) given 1.6M users / 51 countries at Series A — well ahead of typical Series A traction. Breakout (+2pp) capped by the US HR SaaS red ocean: Rippling, Ashby, Gem can all ship a deskless SKU in 6 months if the market proves out."
+  },
+  "verdict": "Humand survives IF (a) multi-module attach rate stays above 3 modules per customer (the integration-moat thesis), (b) US entry CAC does not exceed 24-month LTV (US SaaS HR is the most competitive market on earth), (c) AI-native entrants (Ashby, Gem, Rippling AI) do not ship a deskless SKU before Humand establishes brand. Most fragile: (c) — Rippling already has the platform; adding a deskless module is 6 months of engineering.",
+  "top_risk": "US SMB HR market has 200+ funded competitors; Humand's LATAM playbook (WhatsApp-native UX, local field sales) may not translate",
+  "top_opportunity": "AI agents for onboarding on Spanish/Portuguese-dominant workforces is a language-moat that US incumbents are under-invested in",
+  "actual_outcome": null,
+  "actual_outcome_tier": null
+}

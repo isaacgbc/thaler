@@ -1,0 +1,46 @@
+{
+  "company": "NotCo",
+  "category": "legacy",
+  "year_invested": 2018,
+  "round": "Series A (Kaszek-led, follow-on at Series C)",
+  "stage_at_investment": "Series A",
+  "stage_base_rate": 40,
+  "description": "AI-driven plant-based food company (Giuseppe algorithm) building animal-product analogues — NotMilk, NotBurger, NotChicken — with a CPG distribution strategy across LATAM and the US. At Series A: a Chilean food-tech story riding the 2018 Beyond Meat momentum.",
+  "current_status": "Pivoted from pure CPG to B2B AI licensing (Giuseppe platform). JV with Kraft Heinz handles US/Canada retail. Profitable in Chile, Argentina, Colombia, Peru as of Q2 2025. Targeting overall profitability by end 2026. Revenue ~$250M. Valuation $1.5B. CTO says bulk of future revenue will come from B2B licensing, not food sales.",
+  "scores": {
+    "macro": 65,
+    "demand": 75,
+    "moat": 60,
+    "sales": 45,
+    "behavioral": 60,
+    "ai_disruption": 75,
+    "founder": 85,
+    "simulation": 50
+  },
+  "founder": {
+    "name": "Matías Muchnick + Karim Pichara",
+    "background": "Muchnick: food-industry family roots, Harvard MBA — domain depth in CPG. Pichara: AI/ML PhD, Pontificia Universidad Católica de Chile computer-science professor, built the Giuseppe molecular-AI platform that is the technical core of NotCo.",
+    "problem_fit": "EXCEPTIONAL pairing: the domain + hard-science combination that most food-tech lacks. Muchnick knows how CPG really works; Pichara owns the AI advantage that can't be hired in.",
+    "execution_evidence": "Launched in 5 LATAM countries, landed JV with Kraft Heinz, pivoted cleanly from pure CPG to a B2B AI licensing model when category collapsed.",
+    "red_flags": "None material. The pivot execution proved adversity-tested."
+  },
+  "survival_pct": 55,
+  "outcome_distribution": {
+    "dead": 22,
+    "zombie": 23,
+    "surviving": 28,
+    "thriving": 18,
+    "breakout": 9
+  },
+  "most_likely_outcome": "surviving",
+  "stage_context": {
+    "stage": "Series A",
+    "base_distribution": { "dead": 30, "zombie": 25, "surviving": 20, "thriving": 15, "breakout": 10 },
+    "vs_base": "Plant-based category momentum (2018 Beyond Meat IPO) suggested thriving/breakout upside, but CPG gross-margin reality and LATAM-DTC hybrid distribution pulled most-likely tier down to surviving (+8pp vs base). Dead and breakout tiers both below base — a cash-efficient AI-platform story, unlikely to die, unlikely to 100x."
+  },
+  "verdict": "NotCo survives IF (a) B2B Giuseppe licensing revenue exceeds 40% of total by 2027, (b) LATAM core stays gross-margin positive through inflation cycles, (c) Kraft Heinz JV produces net cash to the parent within 18 months. Most fragile: (a) — licensing AI to CPG incumbents requires them to admit they need the technology, which contradicts their brand equity.",
+  "top_risk": "CPG unit economics: plant-based category growth stalled globally 2023-2025; pricing premium vs dairy/meat is eroding",
+  "top_opportunity": "Giuseppe as a B2B AI platform (formulation-as-a-service) is a software margin business trapped inside a CPG cost structure — unlock is a spin-out",
+  "actual_outcome": "Plant-based category collapse in 2023-2024 (Beyond Meat -80%, Oatly -85%) hit NotCo's retail DTC thesis hard. Company executed the pivot the verdict anticipated: shutdown of owned US operations, Kraft Heinz JV for distribution, and leaning into B2B AI. Valuation last reported at $1.5B (down from peak but not a down-round yet). Survival looks likely; unicorn-scale exit is not.",
+  "actual_outcome_tier": "surviving"
+}

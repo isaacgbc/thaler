@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+
+  /* Light-mode consulting palette — tokens kept under the same names so
+     existing Tailwind classes (bg-bg-void, text-text-primary, etc.) keep
+     working. Recharts and inline styles still read the CSS variables. */
+  --bg-void: #FAFAF9;        /* warm white page background */
+  --bg-surface: #FFFFFF;     /* cards */
+  --bg-elevated: #F5F4F1;    /* subtle alt sections, hover */
+  --bg-input: #FFFFFF;
+  --bg-accent: #F0EFEB;      /* deeper elevated / hover */
+
+  --border-subtle: #E8E6E1;
+  --border-active: #D4D1CA;
+
+  --text-primary: #1A1A1A;
+  --text-body: #3D3D3D;
+  --text-secondary: #6B6B6B;
+  --text-muted: #9B9B9B;
+  --text-inverse: #FFFFFF;
+
+  /* Primary accent — deep forest green. "Elegant, not techy" */
+  --cyan: #1A6B4E;
+  --cyan-light: #E8F5EE;
+
+  --positive: #1A6B4E;
+  --positive-light: #E8F5EE;
+  --warning: #B5850A;
+  --warning-light: #FFF9E6;
+  --danger: #C4372A;
+  --danger-light: #FFF0EE;
+  --theory: #5B4A9E;
+  --theory-light: #F3F0FF;
+}
+
+html, body {
+  background-color: var(--bg-void);
+  color: var(--text-body);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+::selection {
+  background: var(--cyan);
+  color: var(--text-inverse);
+}
+
+.font-display {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.font-data {
+  font-family: var(--font-mono);
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+/* Consulting-report accent bar at the top of every page */
+.top-accent-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--cyan);
+  z-index: 50;
+  pointer-events: none;
+}
+
+/* Section divider — subtle 1px line between major sections */
+.section-divider {
+  height: 1px;
+  background: var(--border-subtle);
+  border: 0;
+  margin: 0;
+}
+
+/* Card shadow for the McKinsey white-card look */
+.consulting-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+.consulting-card.is-active {
+  border-left: 3px solid var(--cyan);
+}
+
+/* Citation badge — inline academic references */
+.citation-badge {
+  display: inline-block;
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--theory);
+  background: var(--theory-light);
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 2px;
+  line-height: 1.4;
+}
+
+/* Larger citation block for section headers */
+.citation {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--theory);
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.005em;
+}
+
+/* Sub-heading rule — uppercase, tracked, warm-gray */
+.subhead {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+/* Scroll indicator in hero */
+@keyframes scrollHint {
+  0%, 100% { opacity: 0.3; transform: translateY(0); }
+  50% { opacity: 0.9; transform: translateY(6px); }
+}
+.scroll-hint {
+  width: 1px;
+  height: 40px;
+  background: var(--border-active);
+  animation: scrollHint 2s ease-in-out infinite;
+}
+
+/* Shimmer animation for loading agent cards */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.agent-loading {
+  background: linear-gradient(
+    90deg,
+    var(--bg-surface) 25%,
+    var(--bg-elevated) 50%,
+    var(--bg-surface) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.8s infinite;
+}
+
+/* Fade-up for hero lines */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-up {
+  animation: fadeUp 0.6s ease-out both;
+}
+
+/* Count-up animation for big numbers — CSS only; JS adds real count-up */
+@keyframes numberIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+.number-in { animation: numberIn 0.5s ease-out both; }
+
+/* Radial glow behind the big survival score — subtler on white */
+.score-glow {
+  position: relative;
+}
+.score-glow::before {
+  content: "";
+  position: absolute;
+  inset: -40px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: -1;
+}
+.score-glow.is-good::before  { background: var(--positive); }
+.score-glow.is-warn::before  { background: var(--warning); }
+.score-glow.is-bad::before   { background: var(--danger); }
+
+/* Sharp progress bar */
+.progress-track {
+  height: 3px;
+  background: var(--border-subtle);
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  transition: width 800ms cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+/* Expandable section — height transition helper */
+.expand-enter {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 320ms ease;
+}
+.expand-enter.open {
+  max-height: 2000px;
+}
+
+/* Custom scrollbar — lightened for white theme */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg-void); }
+::-webkit-scrollbar-thumb { background: var(--border-active); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }

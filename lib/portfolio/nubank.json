@@ -1,0 +1,46 @@
+{
+  "company": "Nubank",
+  "category": "legacy",
+  "year_invested": 2013,
+  "round": "Seed ($2M — Sequoia + Kaszek)",
+  "stage_at_investment": "Pre-seed",
+  "stage_base_rate": 8,
+  "description": "Digital-only, no-fee credit card for Brazil, founded by David Vélez to attack incumbents that charged among the world's highest banking fees. At seed, a Colombian outsider with Sequoia capital and zero product in a market of five oligopolistic banks.",
+  "current_status": "NYSE:NU market cap ~$71B (April 2026). 123M customers across Brazil, Mexico, Colombia. Profitable since 2023, trailing-12-month revenue $10.6B, EPS compounding ~45%/yr. The highest-return early-stage bet in Latin American venture history.",
+  "scores": {
+    "macro": 55,
+    "demand": 85,
+    "moat": 20,
+    "sales": 65,
+    "behavioral": 80,
+    "ai_disruption": 80,
+    "founder": 82,
+    "simulation": 45
+  },
+  "founder": {
+    "name": "David Vélez",
+    "background": "Colombian, Stanford MBA, ex-Sequoia partner running LATAM investments — saw financial exclusion first-hand growing up, then saw it again on every deal flow spreadsheet.",
+    "problem_fit": "HIGH on vision — from the VC seat he had mapped the Brazilian banking oligopoly better than any incumbent insider. MEDIUM on operations — had never run a bank or underwritten credit.",
+    "execution_evidence": "Recruited Cristina Junqueira (ex-Itaú credit operations) as co-founder to close the banking-ops gap. Built from zero to 100M+ customers, IPO at $41B.",
+    "red_flags": "At founding: no banking-license experience, no card-issuing ops history."
+  },
+  "survival_pct": 38,
+  "outcome_distribution": {
+    "dead": 35,
+    "zombie": 20,
+    "surviving": 22,
+    "thriving": 15,
+    "breakout": 8
+  },
+  "most_likely_outcome": "surviving",
+  "stage_context": {
+    "stage": "Pre-seed",
+    "base_distribution": { "dead": 60, "zombie": 22, "surviving": 10, "thriving": 6, "breakout": 2 },
+    "vs_base": "Nubank outperforms pre-seed base rate in thriving (+9pp) and breakout (+6pp) driven by founder quality (ex-Sequoia VC), category-defining TAM (Brazilian banking oligopoly at extortionate spreads), and product simplicity. But at pre-seed, gravity still places most-likely tier at surviving (22pp) — no product yet, no regulatory moat, incumbent retaliation unmodeled."
+  },
+  "verdict": "Nubank survives IF (a) the founder team can hire bank-grade ops without adopting bank culture, (b) Bradesco/Itaú do not retaliate via regulation before product/market fit, (c) BCB allows a non-bank to issue cards at scale. At pre-seed most fragile: (b) — no evidence the incumbents will stay passive.",
+  "top_risk": "Incumbent regulatory capture: five banks control 82% of deposits and have tight BCB relationships",
+  "top_opportunity": "Brazilian consumers pay 200-450% APR on credit cards — a single-digit-APR insurgent captures massive share if allowed to operate",
+  "actual_outcome": "The thesis held. Incumbents underestimated the threat; BCB stayed hands-off. By 2018 Nubank had 4M customers; by 2021 IPO at $41B; by 2026 one of the top-5 largest banks in Latin America by customer count. 1000x+ on Kaszek's seed position — the single bet that defined the franchise.",
+  "actual_outcome_tier": "breakout"
+}

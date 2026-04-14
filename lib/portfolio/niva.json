@@ -1,0 +1,46 @@
+{
+  "company": "Niva",
+  "category": "recent",
+  "year_invested": 2025,
+  "round": "Seed / Strategic ($5.5M — Kaszek, 2025)",
+  "stage_at_investment": "Seed",
+  "stage_base_rate": 15,
+  "description": "New York-based AI-native Know-Your-Business (KYB) platform using agentic AI to verify business identity for banks and fintechs — compressing verification from 10 days to under 10 minutes. Founded 2023; backed by Gradient Ventures (Google AI), Picus Capital, Canary, Gilgamesh before Kaszek.",
+  "current_status": "Six months post-launch: deployed with leading local and global banks and fintechs. Kaszek's first move outside LATAM residents — a strategic bet on US-based KYB infrastructure that can serve LATAM fintech growth.",
+  "scores": {
+    "macro": 75,
+    "demand": 60,
+    "moat": 40,
+    "sales": 55,
+    "behavioral": 70,
+    "ai_disruption": 45,
+    "founder": 58,
+    "simulation": 45
+  },
+  "founder": {
+    "name": "Niva founding team",
+    "background": "New York-based, emerged from stealth 2024. Limited public information on backgrounds — Kaszek's first non-LATAM-resident bet was made in part on founder profile, but the detail is not yet public.",
+    "problem_fit": "PROBABLE — Gradient Ventures (Google AI fund) backing pre-Kaszek suggests a credible technical bench. But without public founder-experience detail, this cannot be fully underwritten.",
+    "execution_evidence": "Shipped product in 6 months post-launch; deployed with leading banks and fintechs; compressed verification from 10 days to <10 minutes.",
+    "red_flags": "Insufficient public data on founder history vs incumbent KYB players (Middesk, Persona, Alloy) who ship faster under competitive pressure."
+  },
+  "survival_pct": 48,
+  "outcome_distribution": {
+    "dead": 22,
+    "zombie": 23,
+    "surviving": 28,
+    "thriving": 18,
+    "breakout": 9
+  },
+  "most_likely_outcome": "surviving",
+  "stage_context": {
+    "stage": "Seed",
+    "base_distribution": { "dead": 45, "zombie": 25, "surviving": 15, "thriving": 10, "breakout": 5 },
+    "vs_base": "Niva beats seed base rate across thriving (+8pp) and breakout (+4pp) from AI-native speed advantage (10 days → 10 mins). Dead tier cut in half (-23pp) from the already-shipping distribution with top banks. But Middesk/Persona feature-copy risk caps realistic upside — most-likely outcome stays at surviving."
+  },
+  "verdict": "Niva survives IF (a) agentic-AI accuracy stays above 97% on business verification (Middesk benchmark is ~94% manual-review-required), (b) at least 2 top-20 US banks or card networks sign pilots within 12 months, (c) incumbent KYB vendors (Middesk, Persona, Alloy, Trulioo) do not ship comparable agentic-AI features before Niva lands reference customers. Most fragile: (c) — Middesk already has the distribution; shipping an agentic layer is a quarter's work.",
+  "top_risk": "Middesk and Persona are funded ($25M+ Series B each) and can replicate the speed-up by embedding LLMs into existing workflows; Niva has a feature, not a moat",
+  "top_opportunity": "Global KYB is genuinely under-solved for cross-border businesses — the opaque corporate registries in LATAM, SEA, and Africa are where agentic AI has the largest marginal utility over structured-data incumbents",
+  "actual_outcome": null,
+  "actual_outcome_tier": null
+}

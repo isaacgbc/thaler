@@ -1,0 +1,46 @@
+{
+  "company": "Kavak",
+  "category": "legacy",
+  "year_invested": 2019,
+  "round": "Series A (Kaszek-led)",
+  "stage_at_investment": "Series A",
+  "stage_base_rate": 40,
+  "description": "Online used-car marketplace for Mexico, buying, reconditioning, and reselling cars with a 7-day return policy to solve the trust gap in informal used-car markets. At Series A: a capital-intensive inventory model attacking a $25B TAM dominated by individual sellers and dealer lots.",
+  "current_status": "Recovered from 75% down round ($8.7B → $2.2B, March 2025). Raised $300M Series F from a16z in Feb 2026, a16z's largest single LatAm investment. First month of global profitability December 2025. 120K transactions in 2025 (+40% YoY). Fintech arm originating $600M annualized in loans. AI agents handling majority of customer interactions.",
+  "scores": {
+    "macro": 70,
+    "demand": 80,
+    "moat": 55,
+    "sales": 40,
+    "behavioral": 70,
+    "ai_disruption": 75,
+    "founder": 72,
+    "simulation": 55
+  },
+  "founder": {
+    "name": "Carlos García Ottati",
+    "background": "Colombian-Mexican serial entrepreneur. Previously founded Linio (LATAM marketplace e-commerce, acquired by Falabella) — deep understanding of LATAM distribution and informal consumer markets.",
+    "problem_fit": "HIGH on distribution and LATAM retail dynamics; MEDIUM on the capital-intensive reconditioning operations side, which is closer to Carvana than to Linio.",
+    "execution_evidence": "Shipped Linio through a full LATAM footprint and exit. Rebuilt Kavak twice — once through COVID-era growth, again through the 2025 restructuring and comeback.",
+    "red_flags": "Linio's unit economics were famously aggressive. Pattern repeated at Kavak (capex + country expansion burning margin) before the 2025 reset."
+  },
+  "survival_pct": 58,
+  "outcome_distribution": {
+    "dead": 20,
+    "zombie": 18,
+    "surviving": 22,
+    "thriving": 28,
+    "breakout": 12
+  },
+  "most_likely_outcome": "thriving",
+  "stage_context": {
+    "stage": "Series A",
+    "base_distribution": { "dead": 30, "zombie": 25, "surviving": 20, "thriving": 15, "breakout": 10 },
+    "vs_base": "Kavak's trust-gap thesis and $25B TAM suggested upside vs Series A base rate (+13pp thriving, +2pp breakout). Capex risk of inventory + reconditioning was under-weighted at the time — the realistic downside landed closer to zombie than dead."
+  },
+  "verdict": "Kavak survives IF (a) December 2025 profitability extends to full-year positive EBITDA, not just one month, (b) fintech loss ratios hold as auto lending scales from $600M to $1B+ through a Brazilian and Mexican credit cycle, (c) valuation recovery justifies the $2.9B total raised without requiring another down round. Most fragile: (b) — scaling auto lending at 100% growth in emerging markets with untested credit models through a rate cycle has broken larger companies.",
+  "top_risk": "Inventory financing cost + rapid country expansion burning gross margin; a single inventory cycle downturn erases 18 months of equity",
+  "top_opportunity": "Attached financing (Kuna) monetizes buyers a second time and is structurally higher-margin than the car transaction itself",
+  "actual_outcome": "The top_risk hit exactly as modeled. Expansion to Colombia, Peru, Argentina, Turkey, Brazil stretched balance sheet. Peak $8.7B valuation collapsed 75% to $2.2B by 2025. Painful restructuring — exits, layoffs, country shutdowns — but the core Mexico unit became profitable by late 2025. Kavak survived the storm; still unclear if the exit multiple justifies the $2B+ invested across all rounds.",
+  "actual_outcome_tier": "surviving"
+}

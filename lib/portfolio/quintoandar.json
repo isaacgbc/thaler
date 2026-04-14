@@ -1,0 +1,46 @@
+{
+  "company": "QuintoAndar",
+  "category": "legacy",
+  "year_invested": 2019,
+  "round": "Series D (Kaszek follow-on)",
+  "stage_at_investment": "Series C",
+  "stage_base_rate": 68,
+  "description": "Brazilian proptech eliminating the 'fiador' (guarantor) requirement from rentals, using proprietary underwriting to insure landlords against tenant default. At Series D: the dominant rental marketplace in Brazil's largest cities, pre-bubble, expanding into home sales.",
+  "current_status": "Largest proptech in LATAM at $5.1B valuation (unchanged since Aug 2021). Revenue >$150M in 2025. Shifted from growth-at-all-costs to profitability focus. Expanded from rentals into property sales. 3,000+ partner agencies. Active in 70+ Brazilian cities. ChatGPT integration for property search. No new funding rounds since 2021, operating on existing capital.",
+  "scores": {
+    "macro": 75,
+    "demand": 85,
+    "moat": 65,
+    "sales": 70,
+    "behavioral": 80,
+    "ai_disruption": 70,
+    "founder": 68,
+    "simulation": 65
+  },
+  "founder": {
+    "name": "Gabriel Braga + André Penha",
+    "background": "First-time founders, Stanford (CS/MBA). Strong technical backgrounds. Neither had operated in Brazilian real estate before founding.",
+    "problem_fit": "Personal pain (had trouble renting apartments in São Paulo) led to the insight — but the operational knowledge of Brazilian real-estate chains and guarantor culture had to be hired in.",
+    "execution_evidence": "Built the dominant proptech in Brazil's largest cities, acquired Casa Mineira, weathered the 2021 valuation reset without a down round.",
+    "red_flags": "No real-estate-industry co-founder; Loft has beaten them in São Paulo on listings supply — a warning that deep local operators still matter."
+  },
+  "survival_pct": 72,
+  "outcome_distribution": {
+    "dead": 8,
+    "zombie": 15,
+    "surviving": 27,
+    "thriving": 32,
+    "breakout": 18
+  },
+  "most_likely_outcome": "thriving",
+  "stage_context": {
+    "stage": "Series C",
+    "base_distribution": { "dead": 15, "zombie": 20, "surviving": 25, "thriving": 25, "breakout": 15 },
+    "vs_base": "Expected thriving (+7pp) given rental-marketplace network effects and proprietary underwriting moat. Breakout (+3pp) reserved for scenarios where QuintoAndar becomes the de-facto embedded-mortgage origination layer for Brazil. Actual outcome landed one tier lower at surviving — post-2021 bubble adjustment plus Loft competitive pressure in São Paulo."
+  },
+  "verdict": "QuintoAndar survives IF (a) the underwriting model stays under 4% loss ratio through a full Brazilian credit cycle (untested — 2020-2022 had COVID moratoria), (b) home-sales business reaches breakeven by 2027, (c) Loft does not out-execute in São Paulo. Most fragile: (a) — the entire thesis rests on an underwriting model that has never seen a normal recession.",
+  "top_risk": "Loss-ratio tail risk on the guarantor product: a single bad credit cycle could require R$500M+ in reserves the company does not have",
+  "top_opportunity": "Embedded mortgage origination — QuintoAndar sees every qualified home-buying intent in Brazil first and can route it to lending partners for high-margin referral fees",
+  "actual_outcome": "Thesis largely playing out. Rental business dominant and profitable; home-sales pivot underwhelming. Avoided a down round (unlike Kavak) but also not showing the EPS momentum a $5B valuation demands. Loft gained share in São Paulo per the risk note. Likely path: strategic acquirer (Itaú, Bradesco) or slow public listing; 10x Kaszek outcome looks unlikely — 3-5x more realistic.",
+  "actual_outcome_tier": "surviving"
+}

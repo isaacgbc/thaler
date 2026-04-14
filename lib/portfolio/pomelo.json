@@ -1,0 +1,46 @@
+{
+  "company": "Pomelo",
+  "category": "recent",
+  "year_invested": 2026,
+  "round": "Series C ($55M — Kaszek + Insight, Jan 2026)",
+  "stage_at_investment": "Series C",
+  "stage_base_rate": 68,
+  "description": "Buenos Aires-based card-issuing and payments infrastructure serving 150 clients across 8 LATAM countries, including Santander, BBVA, Bancolombia, Rappi, PicPay, and Western Union. Revenue +250% over the past two years; $160M total raised.",
+  "current_status": "Deploying Series C into card-issuing enhancements and a flagship global stablecoin card (USDC-native) to address regional inflation/FX volatility. Largest markets Mexico and Brazil; serves embedded-finance builders, neobanks, and large financial institutions.",
+  "scores": {
+    "macro": 65,
+    "demand": 85,
+    "moat": 75,
+    "sales": 75,
+    "behavioral": 60,
+    "ai_disruption": 80,
+    "founder": 92,
+    "simulation": 75
+  },
+  "founder": {
+    "name": "Gastón Irigoyen + ex-MercadoLibre team",
+    "background": "Founders came out of MercadoLibre — the most successful tech company in LATAM — after operating card-issuing and payments infrastructure at continental scale. Irigoyen was previously at Naranja X and Google Argentina.",
+    "problem_fit": "EXCEPTIONAL. Built this exact category — payments infrastructure for LATAM — at the only LATAM company that ran it at scale before spinning out.",
+    "execution_evidence": "Shipped across 8 LATAM countries; 150 enterprise clients including Santander, BBVA, Bancolombia, Rappi, PicPay, Western Union; revenue +250% over 24 months.",
+    "red_flags": "None on founder fit. Risk is client concentration, not team."
+  },
+  "survival_pct": 80,
+  "outcome_distribution": {
+    "dead": 10,
+    "zombie": 15,
+    "surviving": 22,
+    "thriving": 32,
+    "breakout": 21
+  },
+  "most_likely_outcome": "thriving",
+  "stage_context": {
+    "stage": "Series C",
+    "base_distribution": { "dead": 15, "zombie": 20, "surviving": 25, "thriving": 25, "breakout": 15 },
+    "vs_base": "Pomelo's infrastructure moat (process power + switching costs at the BIN-sponsor level) and 150-client book justify thriving skew (+7pp). Breakout (+6pp) unlock is stablecoin-card expansion beyond LATAM — a genuine first-mover category where Marqeta and Galileo do not yet have shipped product."
+  },
+  "verdict": "Pomelo survives IF (a) gross-margin per card issued is defensible against Marqeta / Galileo pricing pressure, (b) the stablecoin-card product reaches US-regulatory clarity before Stripe / Nuvei ship competing rails, (c) client concentration (top 5 = likely >40% of revenue) does not tip into a churn event. Most fragile: (c) — infrastructure businesses with concentrated TPV are one enterprise loss away from an 18-month stall.",
+  "top_risk": "Customer concentration in top-5 enterprise clients; losing Rappi or one of the Santander/BBVA programs removes a large revenue slab with months of warning",
+  "top_opportunity": "Stablecoin card issuance is a genuine first-mover category for LATAM — correct-by-construction for users who hold USDC and want card utility",
+  "actual_outcome": null,
+  "actual_outcome_tier": null
+}

@@ -1,0 +1,46 @@
+{
+  "company": "Creditas",
+  "category": "legacy",
+  "year_invested": 2017,
+  "round": "Series C (Kaszek follow-on)",
+  "stage_at_investment": "Series C",
+  "stage_base_rate": 68,
+  "description": "Brazilian collateralized consumer-lending platform — home-equity and auto-backed loans at lower APRs than unsecured credit. At Series C: a direct attack on Brazil's extortionate consumer-credit spreads by introducing asset-backed underwriting at scale.",
+  "current_status": "Collateralized lending platform at $4.8B valuation from Jan 2022 Series F ($260M). No new funding rounds since. Navigating high-Selic environment (14.75%) which compresses margins on secured lending. Expanding product lines beyond auto and home equity. Path to profitability remains the central question.",
+  "scores": {
+    "macro": 70,
+    "demand": 80,
+    "moat": 55,
+    "sales": 55,
+    "behavioral": 45,
+    "ai_disruption": 60,
+    "founder": 88,
+    "simulation": 50
+  },
+  "founder": {
+    "name": "Sergio Furio",
+    "background": "Spanish, ex-Deutsche Bank / BCG. Career specialization in structured and collateralized credit before founding Creditas — moved to Brazil specifically because he saw unsecured-credit spreads were extortionate and nobody was productizing asset-backed lending at scale.",
+    "problem_fit": "EXCEPTIONAL. Operated in exactly this domain — the thesis didn't require retraining.",
+    "execution_evidence": "Shipped product across home-equity, auto, and payroll-linked lending; scaled origination to R$1B+ monthly; navigated 2021 reset with a -31% mark vs Kavak's -75%.",
+    "red_flags": "None on founder fit. The open question is whether a single founder can make the strategic jump from credit-ops operator to a profitable bank CEO."
+  },
+  "survival_pct": 60,
+  "outcome_distribution": {
+    "dead": 15,
+    "zombie": 25,
+    "surviving": 30,
+    "thriving": 20,
+    "breakout": 10
+  },
+  "most_likely_outcome": "surviving",
+  "stage_context": {
+    "stage": "Series C",
+    "base_distribution": { "dead": 15, "zombie": 20, "surviving": 25, "thriving": 25, "breakout": 15 },
+    "vs_base": "Secured-lending unit economics justify surviving (+5pp) but the Brazilian rate cycle caps thriving (-5pp) and breakout (-5pp). Zombie risk elevated (+5pp) because asset-backed books grow linearly with capital — harder to compound at venture velocity than pure software."
+  },
+  "verdict": "Creditas survives IF (a) collateralized-loan loss ratios stay below 3.5% through the 2022-2026 high-Selic cycle, (b) funding cost compresses faster than portfolio yield (securitization market depth in Brazil), (c) the home-equity origination engine reaches R$2B/month before capital runs out. Most fragile: (b) — Brazilian securitization depth is thin; Creditas still warehouses much of its book.",
+  "top_risk": "Interest-rate mismatch: originations are long-duration, funding is short-duration, and high Selic has compressed NIM for three years running",
+  "top_opportunity": "Payroll-loan channel (consignado) via Creditas @ Work has low loss ratios and sticky corporate relationships — a clear margin pocket vs competitors",
+  "actual_outcome": "Survived the 2021 valuation reset better than feared (down from $4.8B to $3.3B = -31%, vs Kavak -75%). Unit economics now working at the contract level but overall P&L still underwater. This is the textbook 'big but not yet good' fintech — will either turn into a large, profitable bank-lite over the next 3 years or get acquired by an incumbent wanting the origination tech. Unicorn survival likely; 10x exit unlikely.",
+  "actual_outcome_tier": "surviving"
+}

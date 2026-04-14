@@ -1,0 +1,46 @@
+{
+  "company": "Arvo",
+  "category": "recent",
+  "year_invested": 2025,
+  "round": "Series A (R$106M / ~$20M — Kaszek + Base10, Sept 2025)",
+  "stage_at_investment": "Series A",
+  "stage_base_rate": 40,
+  "description": "São Paulo healthtech using AI and data integration to detect billing fraud, waste, and procedure-authorization errors in Brazil's private healthcare claims system. Platform has processed over $25B in claims; revenue and client base grew 4x in the past year.",
+  "current_status": "Largest Series A in Brazilian healthcare sector history. Deployed across operadoras (health-plan payers) with documented 25% productivity lift in auditing/billing within 6 months of adoption. Deploying capital into AI models for procedure authorization and further integration with operadora IT systems.",
+  "scores": {
+    "macro": 65,
+    "demand": 85,
+    "moat": 70,
+    "sales": 75,
+    "behavioral": 80,
+    "ai_disruption": 60,
+    "founder": 78,
+    "simulation": 75
+  },
+  "founder": {
+    "name": "Rafael Tinoco + Fabrício Valadão",
+    "background": "Founders came out of Brazilian healthcare claims and payer operations — deep operadora-side knowledge of where billing fraud actually leaks. Built Arvo from inside the domain, not as an outside tech play.",
+    "problem_fit": "HIGH. The problem (R$40B+ leaked annually to waste and fraud) was learned from inside the payer system. Data moat of $25B processed claims couldn't have been built by an outsider.",
+    "execution_evidence": "Processed $25B in claims, 4x revenue and client-base growth in 12 months, landed largest Series A in Brazilian healthcare history.",
+    "red_flags": "Top-10 operadora contracts still pending — sales execution through 18-month procurement cycles is the pending adversity test."
+  },
+  "survival_pct": 78,
+  "outcome_distribution": {
+    "dead": 12,
+    "zombie": 15,
+    "surviving": 22,
+    "thriving": 33,
+    "breakout": 18
+  },
+  "most_likely_outcome": "thriving",
+  "stage_context": {
+    "stage": "Series A",
+    "base_distribution": { "dead": 30, "zombie": 25, "surviving": 20, "thriving": 15, "breakout": 10 },
+    "vs_base": "Arvo's $25B processed-claims data moat and operadora contract model justify strong thriving skew (+18pp) — the single largest positive delta in the portfolio at this stage. Breakout (+8pp) contingent on top-3 operadora wins and regulatory acceptance of AI-based denials."
+  },
+  "verdict": "Arvo survives IF (a) at least 3 top-10 operadoras sign multi-year contracts by end of 2026 (stickiness is everything in healthcare payer tech), (b) ANS regulatory scrutiny on AI-based claim denials does not force a model audit that slows sales, (c) competing AI tools from US healthcare-claims vendors (Cohere Health, Optum) do not enter Brazil via partnership. Most fragile: (a) — top-10 operadoras move at 18-month procurement cadence and one delayed contract can stall growth.",
+  "top_risk": "Regulatory risk from ANS: if AI-driven claim denials get flagged, operadoras pause deployments and sales cycle triples overnight",
+  "top_opportunity": "Brazilian operadoras lose R$40B+ annually to fraud and waste (IESS 2024); Arvo's data moat from $25B processed claims creates genuine defensibility against AI entrants",
+  "actual_outcome": null,
+  "actual_outcome_tier": null
+}
