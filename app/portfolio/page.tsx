@@ -11,6 +11,7 @@ import { PortfolioCard } from "@/components/portfolio/PortfolioCard";
 import { PortfolioRadar } from "@/components/portfolio/PortfolioRadar";
 import { PortfolioBarChart } from "@/components/portfolio/PortfolioBarChart";
 import { Footer } from "@/components/Footer";
+import { LanV4Section } from "@/components/lan/LanV4Section";
 
 type Filter = "all" | PortfolioCategory;
 
@@ -261,6 +262,8 @@ export default function PortfolioPage() {
           </div>
         </div>
       </section>
+
+      <LanV4Section />
 
       <Footer />
     </main>

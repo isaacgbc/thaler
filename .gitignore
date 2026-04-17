@@ -6,3 +6,8 @@ node_modules
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store
+
+# Internal analysis workspace (source MDs kept local; data/ has parsed output for the app)
+.analysis/
+.claude/
+LAN_V4_FINAL_RANKING.md
